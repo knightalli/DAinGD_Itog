@@ -24,15 +24,23 @@
 
 
 ## Цель работы
-Ознакомиться с основными операторами зыка Python на примере реализации линейной регрессии.
+Начать обучать ml-agents: доходить до стены wall, не задевая при этом target.
 
 ## Ход работы
 1. Создала проект Юнити.
 2. Добавила ml-agent.
-3. Создала скрипт, используя необходимые методы, такие как OnActionReceived()
+3. Добавила на сцену Cube, Ball и 4 Wall
+4. Создала скрипт RollerBall на основе Agent, используя необходимые методы, такие как OnActionReceived(), CollectObservations(), OnEpisodeBegin(). Также я добавила метод OnTriggerEnter(), чтобы настроить взаимодействие agent, target и wall.
 
 
 ![image](https://github.com/knightalli/DAinGD_Itog/assets/127225486/bacb8def-04c5-419f-8db1-040459ff79a7)
+
+5. 
+![image](https://github.com/knightalli/DAinGD_Itog/assets/127225486/11509293-05ff-4744-b382-e1e2a6b8c6d2)
+
+![image](https://github.com/knightalli/DAinGD_Itog/assets/127225486/4225dfc3-7ee9-431b-a71f-45c4acbf7417)
+
+
 
 
 ## Выводы
